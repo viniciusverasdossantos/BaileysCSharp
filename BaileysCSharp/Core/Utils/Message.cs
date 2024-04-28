@@ -59,7 +59,7 @@ namespace BaileysCSharp.Core.Utils
               content.EditedMessage;
         }
 
-        internal static PropertyInfo? GetContentType(Message content)
+        public static PropertyInfo? GetContentType(Message content)
         {
             if (content == null)
             {
